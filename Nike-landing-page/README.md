@@ -3,7 +3,8 @@ In this Single Page Application. I have created a Landing Page of Nike shoes.
 It has two components one Navbar and another is Hero components.
 
 This is the output: 
-![alt text](<Nike landing page.png>)
+![Nike landing page](https://github.com/user-attachments/assets/37b5db44-a160-4eb9-87e2-d1d290c1c914)
+
 
 
 
