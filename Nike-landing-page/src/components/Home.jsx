@@ -1,6 +1,6 @@
 import React from "react";
 
-const Hero = () => {
+const Home = () => {
   return (
     <>
       <main className="hero container mx-auto flex ">
@@ -36,11 +36,11 @@ const Hero = () => {
           
         </div>
         <div className="hero-img mt-5 mx-10"> 
-            <img src="/photos/shoe_image.png" alt="" srcset="" />
+            <img src="/photos/shoe_image.png" alt="" />
         </div>
       </main>
     </>
   );
 };
 
-export default Hero;
+export default Home;
