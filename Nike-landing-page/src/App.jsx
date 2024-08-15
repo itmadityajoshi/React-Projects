@@ -7,7 +7,7 @@ import Contact from "./components/Contact";
 const App = () => {
   return (
     <BrowserRouter>
-      <Navbar />
+        <Navbar/>  
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="contact" element={<Contact />} />
