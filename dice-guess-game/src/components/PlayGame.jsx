@@ -22,6 +22,7 @@ const PlayGame = () => {
      setError('You have not selected any Numbers')
       return;
     }
+    setError("")
     
     const randomNumber = generateRandomNumber(1, 7);
     setCurrentDice((prev) => randomNumber);

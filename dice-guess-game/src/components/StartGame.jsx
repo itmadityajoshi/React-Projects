@@ -5,7 +5,7 @@ const StartGame = ({toggle}) => {
     <>
       <div className="flex items-center justify-center">
         <div className=" ">
-          <img src="/dice.png" alt="" />
+          <img src="/images/dice.png" alt="" />
         </div>
 
         <div className="items-center justify-center ">
