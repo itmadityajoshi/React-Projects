@@ -3,12 +3,13 @@ import StartGame from "./components/StartGame";
 import PlayGame from "./components/PlayGame";
 
 const App = () => {
-  const [isGameOn, setIsGameOn] = useState(true);
+  const [isGameOn, setIsGameOn] = useState(false);
 
   const toggleGamePlay = () => {
     setIsGameOn(() => !isGameOn);
   };
   return <>{isGameOn ? <PlayGame /> : <StartGame toggle={toggleGamePlay} />}</>;
+
 };
 
 export default App;
