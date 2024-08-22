@@ -3,9 +3,10 @@ import Button from './Button'
 
 const Header = () => {
   return (
-    <div>
-      <Button />
-    </div>
+    <header>
+        <h2 className="flex justify-between mb-[20px] items-center text-3xl"> Task Manager App</h2>
+        <Button onclick={showForm} />
+    </header>
   );
 };
 

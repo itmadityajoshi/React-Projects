@@ -44,7 +44,7 @@ const AddTask = () => {
   };
 
   const onSave= ()=>{
-    
+
   }
 
   return (
@@ -82,11 +82,10 @@ const AddTask = () => {
           value={day}
           onChange={(e) => e.target.value}
         />
+        
       </div>
-
-      <button className="btn" value={onSave}>
-        Save Task
-      </button>
+      <input type="submit" className="btn btn-primary w-full max-w-xs text-xl text-center" value="Save Task" />      
+      
     </form>
   );
 };
