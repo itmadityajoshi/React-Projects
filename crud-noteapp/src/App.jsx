@@ -1,30 +1,22 @@
-import React, { useEffect, useState } from "react";
-import AddTask from "./components/AddTask";
-import Header from "./components/Header";
-import Tasks from "./components/Tasks";
+import React from "react";
+import Users from "./components/Users";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./components/Home";
+import Update from "./components/Update";
+import Create from "./components/Create";
+import Read from "./components/Read";
 
 const App = () => {
-  const [tasks, setTasks] = useState("");
-  const [showAddTask, setShowAddTask] = useState(false)
-
-  useEffect(() => {
-    alret("Welcome to our App");
-  }, []);
-
-
-  return ( 
-      <div>
-      <Header  showForm={()=>setShowAddTask(!showAddTask)}/>
-      {showAddTask &&  <AddTask onSave={addTask}/>}
-
-      {
-        tasks.length >0 ? <Tasks
-      }
-      <Tasks />
-
-      </div>
-     
-    </>
+  return (
+    <BrowserRouter>
+      <Users />
+    <Routes>
+      <Route  path="/" element={<Home />}/>
+      <Route  path="/create" element={<Create />}/>
+      <Route  path="/update/:id" element={<Update />}/>
+      <Route  path="/read/:id" element={<Read />}/>
+    </Routes>
+    </BrowserRouter>
   );
 };
 
