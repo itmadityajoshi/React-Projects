@@ -2,7 +2,7 @@
   "users": [
     {
       "id": "1",
-      "name": "Leanne Graham",
+      "name": "Leanne ",
       "username": "Bret",
       "email": "Sincere@april.biz",
       "address": {
@@ -15,7 +15,7 @@
           "lng": "81.1496"
         }
       },
-      "phone": "1-770-736-8031 x56442",
+      "phone": "1-770-736-8031 ",
       "website": "hildegard.org",
       "company": {
         "name": "Romaguera-Crona",
@@ -247,6 +247,18 @@
       "name": "siyana",
       "email": "siyana@com.np",
       "phone": "9827701928"
+    },
+    {
+      "id": "6eda",
+      "name": "Siya Ram",
+      "email": "Anmolratna@gmail.com",
+      "phone": "9861522470"
+    },
+    {
+      "id": "9b7a",
+      "name": "fadf",
+      "email": "adfadf",
+      "phone": "5423121"
     }
   ]
 }
