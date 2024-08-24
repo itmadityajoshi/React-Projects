@@ -1,13 +1,9 @@
-import React from "react";
+import React from 'react'
 
-const Read = () => {
+const Delete = () => {
   return (
-    <div>
-      <div>
-        <h3>Deatils of Users </h3>
-      </div>
-    </div>
-  );
-};
+    <div>Delete</div>
+  )
+}
 
-export default Read;
+export default Delete
