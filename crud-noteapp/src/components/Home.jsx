@@ -52,7 +52,7 @@ const Home = () => {
                 <td>{d.phone}</td>
                 <td className="">
                   <Link to={`/update/${d.id}`}>
-                    <button className=" bg-blue-400 px-2 m-2 rounded ">
+                    <button className=" bg-blue-500 px-2 m-2 rounded ">
                       {" "}
                       Edit
                     </button>{" "}
